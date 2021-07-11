@@ -1,0 +1,19 @@
+syms u w
+
+a = 1.1;
+b = 0.6;
+d = 0.7;
+f = 1.2;
+k = 1;
+m = 0.1;
+c = 0.25;
+
+%you can use either solve or vpasolve according to your convenience, but both the commands should give back correct results
+
+%solve
+eqns = [a*u*(1 - u/k)- b*u*w/(1+m*u) == 0, -d*w + f*u*w / (1 + m*u) == 0];
+S = solve(eqns,[u w]);
+
+%vpasolve
+[uu,ww] = vpasolve( [a*u*(1 - u/k)- b*u*w/(1+m*u) == 0, -d*w + f*u*w / (1 + m*u) == 0], [u,w] );
+pp = [uu, ww]
