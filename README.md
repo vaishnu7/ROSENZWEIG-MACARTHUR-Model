@@ -1,1 +1,2 @@
-# non-linear-differential-equation
+# Non-Linear Differential Equation 🎆
+-this section will be updated soon
