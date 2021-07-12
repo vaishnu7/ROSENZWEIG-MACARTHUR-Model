@@ -36,6 +36,7 @@ The *eigenvalues* indicate the value of a system property in a stationary state,
 
 The Eigen Values we get is greatly useful to determine the stability, see [here](https://www.intmath.com/matrices-determinants/eigenvalues-eigenvectors-concept-applet.php) how the chanage of Eigen Value can change the entire stability of the map of Australia.
 
--How to determine stability of a system of Non-Linear ODE usign Eigenvalues ?
+- How to determine stability of a system of Non-Linear ODE usign Eigenvalues ?
+
 Briefly I will just talk about the results from our system. So the eigen values obtained from the first equilibrium point we got one positive and one negative which means the system at that equilibrium point is unstable. For the second set of eigen values obtained from second equilibrium point we again got results similar to the first value, i.e. one negative and one positive, so again not stable. Third one, we see that the real part of the eigen values are both negative, so we can say it depicts stability.
 More detailed explanations can be found [here](https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book%3A_Chemical_Process_Dynamics_and_Controls_(Woolf)/10%3A_Dynamical_Systems_Analysis/10.04%3A_Using_eigenvalues_and_eigenvectors_to_find_stability_and_solve_ODEs), which they have explained it using graphs.
