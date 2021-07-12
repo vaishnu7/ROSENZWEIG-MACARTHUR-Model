@@ -16,7 +16,7 @@
 to know more about the difference between `solve` and `vpasolve` check [here](https://in.mathworks.com/help/symbolic/select-numeric-or-symbolic-solver.html)
 
 
-- Below is the picture of Jacobian matrix and the Eigen values derived from the Jacobian of the given system of Non-Linear ODE. Note that there are no decimal value associated with any of the term in the 2x2 matrix. That is because of the `jacobian` which doesn't use any decimal value, rather fractional terms are used. 
+- Below is the picture of Jacobian matrix and the Eigen values derived from the Jacobian of the given system of Non-Linear ODE. Note that there are no decimal value associated with any of the term in the 2x2 matrix. That is because of the `jacobian ([eq1, eq2,...,eq3], [x,y,z,...p,q,r])` which doesn't use any decimal value, rather fractional terms are used. 
 
 ![jac](https://user-images.githubusercontent.com/39788520/125305397-f0fb8580-e34b-11eb-82cf-ef08bc82859b.jpg)
 
