@@ -1,4 +1,4 @@
-# Non-Linear Differential Equation 🎀
+# 🎀 Non-Linear Differential Equation 🎀
 
 
 ## Results Achieved From The Study
@@ -20,7 +20,7 @@ to know more about the difference between `solve` and `vpasolve` check [here](ht
 
 ![jac](https://user-images.githubusercontent.com/39788520/125305397-f0fb8580-e34b-11eb-82cf-ef08bc82859b.jpg)
 
-## Definitions To Ponder
+## Definitions To Ponder 🤔
 
 - Why do we need to find Jacobian for a system of Non-Linear ODE?
 
