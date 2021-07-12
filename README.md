@@ -28,6 +28,8 @@ The system's _small signal stability_ is investigated using the Jacobian matrix.
 
 Here, _Small Signal Stability_ is a term used to describe the stability of small signals. When a system is subjected to tiny perturbations or a small disturbance of state of equilibrium, such as gradual changes in system load, small signal stability refers to the system's capacity to sustain stable voltages.
 
+Find more of Jacobian Matrix [here](https://www.sciencedirect.com/topics/engineering/jacobian-matrix).
+
 - What is the phycial significance of eigenvalues ?
 
 The *eigenvalues* indicate the value of a system property in a stationary state, i.e. the system may attain that state given specific conditions, and the eigenvalues represent the value of that property in that stationary state.
