@@ -21,7 +21,7 @@ func2 = @(t,u,w) -d*w + f*u*w / (1 + m*u);
 %application of RK4 method to find the solutions of the system of non-linear ODE i.e. func1 and func2
 for i=1:(length(t)-1)
     k_1 = func1(t(i),u(i),w(i));
-    l_1 = func2(t(i),p,q);
+    l_1 = func2(t(i),u(i),w(i));
     
     k_2 = func1((t(i)+0.5*h),(u(i)+0.5*k_1*h),(w(i)+0.5*l_1*h));
     l_2 = func2((t(i)+0.5*h),(p+0.5*k_1*h),(q+0.5*l_1*h));
