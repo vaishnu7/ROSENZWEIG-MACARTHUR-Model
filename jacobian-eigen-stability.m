@@ -11,8 +11,7 @@ k = 1;
 m = 0.1;
 c = 0.25;
 
-% jacobian([a*u*(1 - u/k)- b*u*w/(1+m*u),-d*w + f*u*w / (1 + m*u)], [u,w])
-j = jacobian([1.1*u*(1 - u/1)- 0.6*u*w/(1+0.1*u),-0.7*w + 1.2*u*w / (1 + 0.1*u)], [u,w]); %Jacobian
+j = jacobian([a*u*(1 - u/k)- b*u*w/(1+m*u),-d*w + f*u*w / (1 + m*u)], [u,w]) %Jacobian
 
 sol1 = subs(j,[u,w],[0,0]); %to calculate Jacobian at equilibrium point (0, 0)
 sol2 = subs(j,[u,w],[1,0]); %to calculate Jacobian at equilibrium point (1, 0)
