@@ -1,4 +1,4 @@
-# 🎀 Non-Linear Differential Equation 🎀
+# 🎀 Non-Linear Differential Equation - Holling Type II Model 🎀
 
 
 ## Results Achieved From The Study
