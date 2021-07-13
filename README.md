@@ -5,6 +5,8 @@
 
 - Below is the picture of solution `plot(u,w)` using Runge Kutta Fourth Order to find results of a system of Non-Linear ODE
 
+Note that in the code `runge-kutta-fourth-order.m` I have used `d = 0.07, f = 1.7` whereas in the original paper, the values are taken as `d = 0.7 f = 1.2`
+
 ![rk4](https://user-images.githubusercontent.com/39788520/125199321-50da2980-e283-11eb-8989-28985835a372.jpg)
 
 
