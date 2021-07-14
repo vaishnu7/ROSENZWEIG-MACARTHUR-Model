@@ -1,3 +1,8 @@
+clc;
+clear;
+close all;
+format long
+
 %parameters
 a = 1.1;
 b = 0.6;
