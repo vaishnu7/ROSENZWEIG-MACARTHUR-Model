@@ -1,3 +1,7 @@
+clc;
+clear;
+close all;
+format long
 syms u w
 
 %parameter values
