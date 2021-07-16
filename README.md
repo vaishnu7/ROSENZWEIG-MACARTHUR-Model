@@ -52,3 +52,5 @@ Briefly I will just talk about the results from our system. So the eigen values 
 More detailed explanations can be found [here](https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book%3A_Chemical_Process_Dynamics_and_Controls_(Woolf)/10%3A_Dynamical_Systems_Analysis/10.04%3A_Using_eigenvalues_and_eigenvectors_to_find_stability_and_solve_ODEs), which they have explained it using graphs.
 
 _Note:_ that Jacobian can be calculated for non-diffusive systems only. So if you want to calculate Jacobian for a system which is diffusive, then you must remove the diffusive terms and calculate equilibrium points or whatsoever.
+
+(this section will be updated)
