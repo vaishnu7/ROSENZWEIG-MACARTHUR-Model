@@ -11,7 +11,6 @@ d = 0.7;
 f = 1.2;
 k = 1;
 m = 0.1;
-c = 0.25;
 
 %you can use either solve or vpasolve according to your convenience, but both the commands should give back correct results
 
