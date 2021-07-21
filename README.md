@@ -1,4 +1,4 @@
-# 🎀 Non-Linear Differential Equation - Holling Type II Model 🎀
+# 🎀 Non-Linear Differential Equation - Stability Analysis of ROSENZWEIG-MACARTHUR Model🎀
 
 
 ## Results Achieved From The Study
